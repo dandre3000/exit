@@ -6,5 +6,5 @@ export const exit = (() => {
 
     else if (typeof close === 'function') return close
 
-    else throw new Error('Built in exit function not detected')
+    else throw new Error('The close or exit function was not detected')
 })()

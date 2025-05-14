@@ -1,6 +1,6 @@
 {
   "name": "@dandre3000/exit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "author": {
       "name": "DeAundre Payne",
@@ -10,7 +10,10 @@
   "type": "module",
   "description": "A uniform alias for the close or exit function in bun, deno, node and the browser.",
   "files": ["index.js", "index.d.ts"],
-  "types": "index.d.ts",
+  "exports": {
+    "default": "./index.js",
+    "types": "./index.d.ts"
+  },
   "keywords": [
       "close",
       "exit",
